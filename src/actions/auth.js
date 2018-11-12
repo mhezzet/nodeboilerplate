@@ -1,6 +1,6 @@
 // import { AUTH_USER } from './types';
 import axios from 'axios';
-import { AUTH_USER, AUTH_ERR, SIGN_OUT } from '../actions/types';
+import { AUTH_USER, AUTH_ERR } from '../actions/types';
 
 export const signup = (payload, callback) => async dispatch => {
   try {
